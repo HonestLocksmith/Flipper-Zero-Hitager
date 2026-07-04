@@ -1,0 +1,13 @@
+App(
+    appid="hitager",
+    name="Hitager",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="hitager_app",
+    requires=["gui"],
+    stack_size=4 * 1024,
+    fap_category="GPIO",
+    fap_version="0.1",
+    fap_description="UART front end for Arduino Hitager",
+    fap_author="OpenAI / Arthur",
+    fap_icon="assets/hitager_10x10.png",
+)
