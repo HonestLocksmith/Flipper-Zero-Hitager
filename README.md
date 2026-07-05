@@ -4,7 +4,7 @@ Minimal Flipper Zero external app that talks ASCII UART to an Arduino/Nano Hitag
 
 ## Wiring
 
-Flipper GPIO UART is 3.3 V logic. Use a level shifter if your Arduino TX is 5 V.
+Flipper GPIO UART is 3.3 V logic but 5 V tolerant. Use a level shifter if your Arduino TX is 5 V or a voltage divider with resistors whem not 5V tolerant. 
 
 - Flipper TX -> Arduino RX
 - Flipper RX -> Arduino TX
